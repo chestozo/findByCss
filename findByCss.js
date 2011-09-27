@@ -28,4 +28,8 @@ win.findByCss = function(css) {
     return filtered;
 }
 
+if (window.console && console.clear) {
+    console.clear();
+}
+
 })(window, document, document.body);
