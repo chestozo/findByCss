@@ -28,8 +28,9 @@ win.findByCss = function(css) {
     return filtered;
 }
 
-if (window.console && console.clear) {
-    console.clear();
+if (window.console) {
+    console.log("Find by css: ready");
+    console.log("Usage: findByCss({ position: \"relative\"});");
 }
 
 })(window, document, document.body);
